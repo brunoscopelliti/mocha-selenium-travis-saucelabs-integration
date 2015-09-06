@@ -1,0 +1,14 @@
+{
+  "seleniumServer": "http://ondemand.saucelabs.com:80/wd/hub",
+  "timeout": 15000,
+  "browsers": [
+    {
+      "browserName": "chrome",
+      "platform": "Windows 8"
+    },
+    {
+      "browserName": "firefox",
+      "platform": "Linux"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "mocha-selenium-travis-saucelabs-integration",
+  "version": "0.0.1",
+  "description": "CI integrating mocha/selenium-webdriver/travis/saucelabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunoscopelliti/mocha-selenium-travis-saucelabs-integration.git"
+  },
+  "keywords": [
+    "continuous-integration",
+    "ci",
+    "tests",
+    "mocha",
+    "selenium-webdriver",
+    "travis",
+    "saucelabs"
+  ],
+  "author": "Bruno Scopelliti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunoscopelliti/mocha-selenium-travis-saucelabs-integration/issues"
+  },
+  "homepage": "https://github.com/brunoscopelliti/mocha-selenium-travis-saucelabs-integration",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0",
+    "selenium-webdriver": "^2.46.1"
+  }
+}
