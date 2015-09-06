@@ -1,6 +1,6 @@
 {
   "name": "mocha-selenium-travis-saucelabs-integration",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "CI integrating mocha/selenium-webdriver/travis/saucelabs",
   "main": "index.js",
   "scripts": {
