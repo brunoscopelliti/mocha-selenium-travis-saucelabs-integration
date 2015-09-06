@@ -8,7 +8,8 @@
     },
     {
       "browserName": "firefox",
-      "platform": "Linux"
+      "version": "39.0",
+      "platform": "OS X 10.10"
     }
   ]
 }
