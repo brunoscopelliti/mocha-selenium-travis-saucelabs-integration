@@ -7,14 +7,14 @@
 
     <h1>The amazing calculator:</h1>
 
-    <input type="number" id="val1" value="0"/> + <input type="number" id="val2" value="0"/> = <span id="result"></span>
+    <input type="text" id="val1" value="0"/> + <input type="text" id="val2" value="0"/> = <span id="result"></span>
 
     <button id="btn">Compute</button>
 
     <script src="src/sum.js"></script>
     <script type="text/javascript">
         btn.addEventListener("click", function() {
-            result.innerText = window.commonJsStrict.sum(Number(val1.value), Number(val2.value));
+            result.innerText = window.commonJsStrict.sum(parseInt(val1.value,10), parseInt(val2.value,10));
         });
     </script>
 
